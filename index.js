@@ -10,4 +10,4 @@
 // ==/UserScript==
 
 (function() {'use strict';var a = document.getElementById('viewbox_report');var b = a.children[0];var c = b.title;
-    var d = [];var i = 0;var e = 0;if(f()){document.querySelector('body').remove();document.querySelector('head').remove();window.close(); }function f(){for(i=0;i<d.length;i++ ){if(c.includes(d[i])){e = 1;return true}}return false}})();
+    var d = ["原神"];var i = 0;var e = 0;if(f()){document.querySelector('body').remove();document.querySelector('head').remove();window.close(); }function f(){for(i=0;i<d.length;i++ ){if(c.includes(d[i])){e = 1;return true}}return false}})();
